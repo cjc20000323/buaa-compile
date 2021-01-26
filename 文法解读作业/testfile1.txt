@@ -1,0 +1,19 @@
+const int NumStudent = 100;
+const char cc = 'C';
+int a = 1;
+int b = 3;
+char c = 'c';
+int aa[10];
+void main()
+{
+	printf("18373750");
+	printf("1a+-*/!@");
+	printf("%d", a);
+	printf("%d", a + b);
+	printf("%c", cc);
+	printf("%c", c);
+	printf("This is my %d test.", a);
+	printf(b);
+	printf("%d", a * b - b + a);
+	printf("%d", a * b + a / b);
+}

@@ -1,0 +1,71 @@
+const int sum = 100;
+int get_sum()
+{
+	return (100);
+}
+void test_if(int a, int b, char c)
+{
+	if (a >= 60)
+		printf("%d", a);
+	if (a >= 10)
+		printf("%d", a);
+	else
+		printf("%d", b);
+	if (b != 90)
+	{
+		b = 10;
+		a = 90;
+	}
+	else
+	{
+		b = 10;
+		a = 90;
+	}
+	if (b == 10)
+		b = 9;
+	printf("%d", a);
+	printf("%d", b);
+	return;
+}
+void test_switch()
+{
+	int b = 200;
+	int result;
+	switch (b * 2)
+	{
+	case 300: {
+		result = get_sum() + 300;
+	}
+	case 400: {
+		result = 400 + get_sum();
+	}
+	case 500: {
+		result = 500 + get_sum() / 2 * 2;
+	}
+	default: {
+		result = 200;
+	}
+	}
+	switch (b)
+	{
+	case 200: {
+		result = (600 - 200) * get_sum() / (101 - 1 + 1 - 1) + (200 + 4);
+	}
+	default: {
+		;
+	}
+	}
+}
+void main()
+{
+	const int num = 100;
+	const char c = '5';
+	const char cc = '6';
+	const int a = 400;
+	test_if(90, 10, '5');
+	printf("18373750");
+	printf("%d", num);
+	printf("%d", get_sum());
+	printf("%d", a * 2);
+	printf("%d", a / 2);
+}

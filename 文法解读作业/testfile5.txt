@@ -1,0 +1,45 @@
+const int sum = 100, num = 200;
+int aum = 300;
+int bum = 400;
+char c1 = '+';
+char c2 = '*';
+int a[3] = { 1, 2, 3 };
+int b[2][3] = { {1, 2, 3}, {4, 5, 6} };
+char map[10][10];
+char str[10];
+void get_sum() {}
+
+char get_char()
+{
+	char c = 'a';
+	return (c);
+}
+void main()
+{
+	const char aaa = '-';
+	const char bbb = '-';
+	const int ccc = 9;
+	int a1;
+	int b1;
+	char c;
+	a1 = +8;
+	b1 = -8;
+	a1 = -(b1);
+	b1 = +(a1);
+	if (a1 > b1)
+		a1 = b1;
+                 if (a1 > b1)
+	{
+
+	}
+	printf("18373750");
+	printf("%d", a[0] + b[1][1]);
+	printf("You and I");
+	printf("%d", a1);
+	printf("%d", b1);
+	printf("%d", b[0][0]);
+	printf("%d", a[1]);
+	printf("%d", a[1] * b[1][1]);
+	printf("b");
+	printf("a");
+}

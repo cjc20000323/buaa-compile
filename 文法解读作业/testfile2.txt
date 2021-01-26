@@ -1,0 +1,52 @@
+int array[100];
+int map[10][10];
+void test_for_add_sub()
+{
+	int i, j;
+	int a = +8;
+	int b = -9;
+	for (i = 0; i < 10; i = i + 1)
+	{
+		for (j = 9; j >= 0; j = j - 1)
+		{
+			map[i][j] = a;
+		}
+	}
+}
+void test_while()
+{
+	int i = 0;
+	while (i <= 99)
+	{
+		array[i] = i;
+		i = i + 1;
+	}
+}
+int test_scanf(int b)
+{
+	return (b+b);
+}
+void main()
+{
+                 const int aaa = 100;
+	int b;
+	int a;
+	char c[100];
+	test_for_add_sub();
+	test_while();
+	scanf(b);
+	a = test_scanf(b);
+	c[0] = 'a';
+	c[1] = 'b';
+	c[2] = 'c';
+	printf("18373750");
+	printf("%d", a);
+	printf("%d", (a + 2) * 3);
+	printf("%d", (a - 2) / 3);
+	printf("%d", 2 * (a + 3));
+	printf("%d", 2 / (a - 3));
+	printf("%d", b);
+	printf("%c", c[0]);
+	printf("%c", c[1]);
+	printf("%d", array[47]);
+}

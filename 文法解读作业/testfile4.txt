@@ -1,0 +1,13 @@
+void main()
+{
+	printf("18373750");
+	printf("cccccc");
+	printf("abcdefghijklmnopqrstuvwxyz");
+	printf("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+	printf("123456789");
+	printf("987654321");
+	printf("aaaaaa");
+	printf("bbbbbb");
+	printf("yyyyyy");
+	printf("xxxxxx");
+}
